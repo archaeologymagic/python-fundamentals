@@ -29,28 +29,36 @@ exponent = 2 ** 3
 print("Exponent: ", exponent)
 
 Result1 = (2 + 3) * 4
+# Result using parentheses to change order
 print("Result1: ", Result1)
 
 Result2 = 2 ** 3 * 4
+# Exponentiation before multiplication
 print("Result2: ", Result2)
 
 Result3 = 20 / 5 * 2
+# Division before multiplication
 print("Result3: ", Result3)
 
 Result4 = 10 - 2 + 3
+# Left to right evaluation
 print("Result4: ", Result4)
 
 Result5 = 5 + 2 ** 3 * (4-1)
+# Combination of parentheses, exponentiation, and multiplication
 print("Result5: ", Result5)
 
 # Challanges
 
 Rectangle_Dimensions = (8, 5)
+# Calculate area of rectangle
 Area = Rectangle_Dimensions[0] * Rectangle_Dimensions[1]
 print(Area)
 
 m = 3.14
 r = 7
+
+# Calculate area of circle
 Circle_Calculation = m * r ** 2
 print(Circle_Calculation)
 
@@ -59,9 +67,11 @@ Shopping_List = {
     "Notebook": 3.50
 }
 
+# Calculate total cost for books and notebooks
 calculation = (Shopping_List["Book"] * 3) * (Shopping_List["Notebook"] * 4)
 print(calculation)
 
+# Modulus with floats
 print(7.0 % 4.9)
 
 number = int(input("Enter a number to check if it is even or odd: "))

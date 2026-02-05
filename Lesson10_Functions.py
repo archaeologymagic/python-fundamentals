@@ -70,3 +70,25 @@ def double_sequencer(number, times):
 
 result = double_sequencer(1, 5)
 print(result)
+
+print("\nChallange 4")
+print("\nPython")
+
+def analyze_word(word): 
+     vowelCount = 0
+     consonantCount = 0
+
+     if type(word) != str: 
+        print("Error")
+        return 0
+         
+     for i in word.lower():
+         if i in "aeiou":
+             vowelCount += 1
+         elif i.isalpha(): 
+             consonantCount += 1 
+     print(vowelCount)
+     print(consonantCount)
+        
+
+analyze_word(11)
